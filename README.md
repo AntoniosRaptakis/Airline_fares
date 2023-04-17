@@ -8,4 +8,14 @@ Later, I will upload the jupyter notebook where I use ML techniques in order to 
 
 Apart from the prediction, I prepared a WebApp. By selecting different options in the WebApp, one can explore the dataset and compare the prices.
 
-Libraries used for the WebApp:
+The libraries that I used for the WebApp:
+
+- Numpy
+- Pandas
+- Matplotlib
+- Plotly
+- Folium
+- Streamlit
+
+In order to run the WebApp in the streamlit cloud, I had to use the file requirements.txt with the name of some libraries that I use in the python script.
+
