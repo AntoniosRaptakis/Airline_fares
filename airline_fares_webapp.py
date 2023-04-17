@@ -9,7 +9,6 @@ import folium
 
 from streamlit_folium import st_folium, folium_static
 import folium
-from folium.features import DivIcon
 import streamlit as st
 
 ############################################################################################################################
@@ -227,7 +226,7 @@ with col3:
 ############################################################################################################################
 ############################################################################################################################
 
-text = '<p style="text-align: center; font-size: 28px;"><strong>Descriptive Analysis</strong></p>'
+text = '<p style="text-align: center; font-size: 28px;"><strong>Descriptive Statistics</strong></p>'
 st.write(text, unsafe_allow_html=True)
 
 st.write("")
