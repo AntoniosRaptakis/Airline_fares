@@ -227,7 +227,7 @@ with col3:
 ############################################################################################################################
 ############################################################################################################################
 
-text = '<p style="text-align: center; font-size: 28px;"><strong>Descriptive statistics</strong></p>'
+text = '<p style="text-align: center; font-size: 28px;"><strong>Descriptive Analysis</strong></p>'
 st.write(text, unsafe_allow_html=True)
 
 st.write("")
