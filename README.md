@@ -6,7 +6,18 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
 
 
 - ## The jupyter notebook
- The 
+ The jupyter notebook includes all of the data analysis and forecasting. For the predictions, I used the regression technique and time series analysis.
+ 
+ The libraries that I used:
+ 
+ - Numpy
+ - Pandas
+ - Matplotlib
+ - Seaborn
+ - Plotly
+ - Folium
+ - Skicit-learn
+ - Statsmodels
 
 - ## The WebApp
 Apart from the prediction, I prepared a WebApp. By selecting different options in the WebApp, one can explore the dataset and compare the prices.
