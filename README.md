@@ -6,7 +6,10 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
 
 
 ## The jupyter notebook
- The jupyter notebook includes all of the data analysis and forecasting. For the predictions, I used the regression technique and time series analysis.
+
+The zipped files include the jupyter notebook, the dataset as csv file and the notebook in pdf verson. I could not upload them as files separately because they were larger than 50 MB. 
+
+The jupyter notebook has all of the data analysis and forecasting. For the predictions, I used the regression technique and time series analysis.
  
  The libraries that I used:
  
@@ -18,10 +21,7 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
  - Folium
  - Skicit-learn
  - Statsmodels
-
-
-The dataset from kaggle was more than 50 MB and I could not upload it. In case that the notebook file is trembling, please check out the respective pdf file.
-
+ 
 
 
 ## The WebApp
