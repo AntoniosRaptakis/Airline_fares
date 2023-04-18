@@ -20,7 +20,7 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
  - Statsmodels
 
 
-The dataset from kaggle was more than 50 MB and I could not upload it.
+The dataset from kaggle was more than 50 MB and I could not upload it. In case that the notebook file is trembling, please check out the respective pdf file.
 
 
 
