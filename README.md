@@ -19,6 +19,7 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
  - Skicit-learn
  - Statsmodels
 
+The dataset from kaggle was more than 50 MB and I could not upload it.
 
 
 ## The WebApp
