@@ -19,6 +19,8 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
  - Skicit-learn
  - Statsmodels
 
+
+
 - ## The WebApp
 Apart from the prediction, I prepared a WebApp. By selecting different options in the WebApp, one can explore the dataset and compare the prices.
 
