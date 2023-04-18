@@ -5,7 +5,7 @@ My motivation for this project was to predict the prices of the airfares. The da
 https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?select=Cleaned_dataset.csv
 
 
-- ## The jupyter notebook
+## The jupyter notebook
  The jupyter notebook includes all of the data analysis and forecasting. For the predictions, I used the regression technique and time series analysis.
  
  The libraries that I used:
@@ -21,7 +21,7 @@ https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares?
 
 
 
-- ## The WebApp
+## The WebApp
 Apart from the prediction, I prepared a WebApp. By selecting different options in the WebApp, one can explore the dataset and compare the prices.
 
 The libraries that I used for the WebApp:
