@@ -54,6 +54,7 @@ def stacked_barplots_2_variables(df, variables, axes):
     perc_b = perc_b.rename(columns={variables[1]:"Percentage on data"})
     perc_b = perc_b.reset_index()
     perc_b = perc_b.rename(columns={'index':variables[1]})
+    st.write(perc_b)
     
     # merge the tables which have been created above
     conn_var_copy = conn_var.copy()
