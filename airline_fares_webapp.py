@@ -58,7 +58,7 @@ def stacked_barplots_2_variables(df, variables, axes):
     # merge the tables which have been created above
     conn_var_copy = conn_var.copy()
     conn_var_copy.reset_index(inplace=True)
-    unify = conn_var_copy.join(perc_b, on=variables[1])
+    unify = conn_var_copy.merge(perc_b, on=variables[1])
     
     # plot the stacked bars
     conn_var.plot(ax=axes, kind='bar', width=0.2, stacked=True)
