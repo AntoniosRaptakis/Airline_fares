@@ -62,13 +62,13 @@ def stacked_barplots_2_variables(df, variables, axes):
     
     # plot the stacked bars
     conn_var.plot(ax=axes, kind='bar', width=0.2, stacked=True)
-    '''
+    
     # give labels on x-axis
-    for_x_axis = unify[[variables[1],"Percentage on data"]]
+    #for_x_axis = unify[[variables[1],"Percentage on data"]]
     x_ticks = np.arange(len(unify[variables[1]])) 
-    x_ticklabels = for_x_axis[variables[1]].values
+    #x_ticklabels = for_x_axis[variables[1]].values
     axes.set_xticks(x_ticks)
-    axes.set_xticklabels(x_ticklabels, fontsize=18, rotation=25)
+    #axes.set_xticklabels(x_ticklabels, fontsize=18, rotation=25)
     axes.set_xlabel(variables[1], fontsize=22, labelpad=15)
 
     # give labels on y-axis
@@ -94,8 +94,7 @@ def stacked_barplots_2_variables(df, variables, axes):
                   horizontalalignment='center', 
                   verticalalignment='center',
                   fontsize=22)
-    '''    
-        
+                
 ############################################################################################################################
 # ------------------------------------------------------------------------------------------------------------------------ #
 ############################################################################################################################
