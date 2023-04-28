@@ -66,8 +66,10 @@ def stacked_barplots_2_variables(df, variables, axes):
     # give labels on x-axis
     #for_x_axis = unify[[variables[1],"Percentage on data"]]
     x_ticks = np.arange(len(unify[variables[1]])) 
+    x_ticklabels = axes.get_xticklabels()
     #x_ticklabels = for_x_axis[variables[1]].values
     axes.set_xticks(x_ticks)
+    axes.set_xticklabels(x_ticklabels, fontsize=18, rotation=65)
     #axes.set_xticklabels(x_ticklabels, fontsize=18, rotation=25)
     axes.set_xlabel(variables[1], fontsize=22, labelpad=15)
 
@@ -90,10 +92,11 @@ def stacked_barplots_2_variables(df, variables, axes):
     
     # show the percentages of the x-axis variable which is in the whole dataset
     #for count, value in enumerate(unify['Percentage on data']):
-    #    axes.text(count, 1.04, '{:.2f}%'.format(value), 
-    #              horizontalalignment='center', 
-    #              verticalalignment='center',
-    #              fontsize=22)
+    for count, value in enumerate(perc_b):
+        axes.text(count, 1.04, '{:.2f}%'.format(value), 
+                  horizontalalignment='center', 
+                  verticalalignment='center',
+                  fontsize=22)
                 
 ############################################################################################################################
 # ------------------------------------------------------------------------------------------------------------------------ #
