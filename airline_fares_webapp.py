@@ -59,13 +59,12 @@ def stacked_barplots_2_variables(df, variables, axes):
     unify = conn_var.copy()
     unify.reset_index(inplace=True)
     unify = unify.merge(perc_b, on=variables[1])
-    
+    print(unify)
     # plot the stacked bars
     conn_var.plot(ax=axes, kind='bar', width=0.2, stacked=True)
     
     # give labels on x-axis
     for_x_axis = unify[[variables[1],'Percentage on data']]
-    print(for_x_axis)
     x_ticks = np.arange(len(unify[variables[1]])) 
     x_ticklabels = for_x_axis[variables[1]].values
     axes.set_xticks(x_ticks)
