@@ -52,7 +52,7 @@ def stacked_barplots_2_variables(df, variables, axes):
     perc_b = round((df[variables[1]].value_counts()/df[variables[1]].value_counts().sum())*100,2)
     perc_b = perc_b.to_frame()
     #perc_b = perc_b.rename(columns={variables[1]:"Percentage on data"})
-    perc_b = perc_b.rename(columns={'Count':"Percentage on data"})
+    perc_b = perc_b.rename(columns={'count':'Percentage on data'})
     perc_b = perc_b.reset_index()
     perc_b = perc_b.rename(columns={'index':variables[1]})
     st.write(perc_b)
@@ -66,7 +66,7 @@ def stacked_barplots_2_variables(df, variables, axes):
     conn_var.plot(ax=axes, kind='bar', width=0.2, stacked=True)
     
     # give labels on x-axis
-    for_x_axis = unify[[variables[1],"Percentage on data"]]
+    for_x_axis = unify[[variables[1],'Percentage on data']]
     x_ticks = np.arange(len(unify[variables[1]])) 
     #x_ticklabels = axes.get_xticklabels()
     x_ticklabels = for_x_axis[variables[1]].values
