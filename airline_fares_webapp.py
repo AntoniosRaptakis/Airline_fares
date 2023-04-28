@@ -18,7 +18,8 @@ import streamlit as st
 data1 = pd.read_csv("new_dataset_1.csv")
 data2 = pd.read_csv("new_dataset_2.csv")
 
-data = data1.append(data2)
+#data = data1.append(data2)
+data = pd.concat((data1, data2), axis = 0)
 data.reset_index(inplace=True)
 data = data.drop(['Unnamed: 0','index'],axis=1)
 
