@@ -91,11 +91,11 @@ def stacked_barplots_2_variables(df, variables, axes):
                     horizontalalignment='center', verticalalignment='center',fontsize=18)
     
     # show the percentages of the x-axis variable which is in the whole dataset
-    for count, value in enumerate(unify['Percentage on data']):
-        axes.text(count, 1.04, '{:.2f}%'.format(value), 
-                  horizontalalignment='center', 
-                  verticalalignment='center',
-                  fontsize=22)
+    #for count, value in enumerate(unify['Percentage on data']):
+    #    axes.text(count, 1.04, '{:.2f}%'.format(value), 
+    #              horizontalalignment='center', 
+    #              verticalalignment='center',
+    #              fontsize=22)
                 
 ############################################################################################################################
 # ------------------------------------------------------------------------------------------------------------------------ #
