@@ -1,4 +1,5 @@
 matplotlib
 plotly
 folium
+pandas 1.2.4
 streamlit_folium
