@@ -36,5 +36,5 @@ The libraries that I used for the WebApp:
 - Folium
 - Streamlit
 
-In order to run the WebApp in the streamlit cloud, I had to use the file requirements.txt with the name of some libraries that I use in the python script.
+In order to run the WebApp in the streamlit cloud, I had to use the file requirements.txt by adding some libraries that I use in the python script.
 
