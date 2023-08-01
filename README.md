@@ -40,3 +40,4 @@ In order to run the WebApp in the streamlit cloud, I had to use the file require
 
 
 **Link to the WebApp**: https://antoniosraptakis-airline-fares-airline-fares-webapp-ty0327.streamlit.app
+
